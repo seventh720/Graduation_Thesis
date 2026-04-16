@@ -1,0 +1,16 @@
+{
+  "dataset": "sentiment140",
+  "model": "glove_bilstm",
+  "index_variant": "neutral_hi",
+  "sample_size": 480000,
+  "negative_ratio": 0.45524791666666664,
+  "neutral_ratio": 0.08634583333333333,
+  "positive_ratio": 0.45840625,
+  "mean_proba_pos": 0.5050435541585837,
+  "neg_th": 0.4,
+  "pos_th": 0.6,
+  "hi_label_raw": 0.0031583333333333333,
+  "hi_label_100": 50.157916666666665,
+  "hi_prob_raw": 0.010087108317167259,
+  "hi_prob_100": 50.504355415858356
+}

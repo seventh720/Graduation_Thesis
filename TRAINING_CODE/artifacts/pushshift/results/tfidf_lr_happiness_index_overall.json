@@ -1,0 +1,19 @@
+{
+  "dataset": "pushshift",
+  "model": "tfidf_lr",
+  "index_variant": "overall_temporal_ready",
+  "sample_size": 8466,
+  "time_span_days": 335,
+  "temporal_window": "month",
+  "n_time_windows": 12,
+  "negative_ratio": 0.26222537207654145,
+  "neutral_ratio": 0.3092369477911647,
+  "positive_ratio": 0.4285376801322939,
+  "mean_prob_negative": 0.3030272597051054,
+  "mean_prob_neutral": 0.28330654052396925,
+  "mean_prob_positive": 0.4136661997709253,
+  "hi_label_raw": 0.16631230805575242,
+  "hi_label_100": 58.31561540278762,
+  "hi_prob_raw": 0.11063894006581987,
+  "hi_prob_100": 55.531947003290995
+}

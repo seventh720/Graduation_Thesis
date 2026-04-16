@@ -1,0 +1,19 @@
+{
+  "dataset": "pushshift",
+  "model": "glove_bilstm",
+  "index_variant": "overall_temporal_ready",
+  "sample_size": 8466,
+  "time_span_days": 335,
+  "temporal_window": "month",
+  "n_time_windows": 12,
+  "negative_ratio": 0.2543113630994567,
+  "neutral_ratio": 0.24887786439877155,
+  "positive_ratio": 0.4968107725017718,
+  "mean_prob_negative": 0.24696305390823545,
+  "mean_prob_neutral": 0.2704988175678642,
+  "mean_prob_positive": 0.48253812850176564,
+  "hi_label_raw": 0.24249940940231515,
+  "hi_label_100": 62.124970470115755,
+  "hi_prob_raw": 0.23557507459353022,
+  "hi_prob_100": 61.77875372967652
+}

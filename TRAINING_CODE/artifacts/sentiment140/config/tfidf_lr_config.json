@@ -1,0 +1,32 @@
+{
+  "dataset": "sentiment140",
+  "data_path": "e:\\桌面\\Graduation_Thesis\\Dataset\\sentiment140\\training.1600000.processed.noemoticon.csv",
+  "random_state": 42,
+  "split_ratio": {
+    "train": 0.6,
+    "val": 0.1,
+    "test": 0.3
+  },
+  "split_columns": [
+    "text",
+    "text_clean",
+    "label"
+  ],
+  "preprocessing": "minimal_cleaning_with_sentiment_signal_preservation",
+  "model": {
+    "name": "tfidf_logistic_regression",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.95,
+    "sublinear_tf": true,
+    "max_iter": 200,
+    "solver": "saga",
+    "class_weight": "balanced"
+  },
+  "figures": {
+    "confusion_matrix": "e:\\桌面\\Graduation_Thesis\\Code\\artifacts\\sentiment140\\figures\\tfidf_lr_confusion_matrix.png"
+  }
+}

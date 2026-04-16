@@ -1,0 +1,13 @@
+{
+  "model_name": "glove_bilstm_binary",
+  "dataset": "sentiment140",
+  "random_state": 42,
+  "max_vocab": 50000,
+  "max_len": 50,
+  "embed_dim": 300,
+  "hidden_dim": 128,
+  "batch_size": 64,
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "best_val_loss": 0.3748897184371948
+}

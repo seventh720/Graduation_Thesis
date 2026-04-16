@@ -1,0 +1,19 @@
+{
+  "dataset": "pushshift",
+  "model": "bert_base_uncased",
+  "index_variant": "overall_temporal_ready",
+  "sample_size": 8466,
+  "time_span_days": 335,
+  "temporal_window": "month",
+  "n_time_windows": 12,
+  "negative_ratio": 0.28431372549019607,
+  "neutral_ratio": 0.22986061894637372,
+  "positive_ratio": 0.4858256555634302,
+  "mean_prob_negative": 0.28092890882552013,
+  "mean_prob_neutral": 0.2334672345182819,
+  "mean_prob_positive": 0.4856038560783721,
+  "hi_label_raw": 0.20151193007323412,
+  "hi_label_100": 60.07559650366171,
+  "hi_prob_raw": 0.20467494725285193,
+  "hi_prob_100": 60.233747362642596
+}

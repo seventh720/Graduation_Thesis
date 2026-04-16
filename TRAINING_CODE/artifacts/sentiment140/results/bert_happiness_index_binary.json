@@ -1,0 +1,20 @@
+{
+  "dataset": "sentiment140",
+  "model": "bert_base_uncased",
+  "index_variant": "binary_hi",
+  "sample_size": 480000,
+  "negative_ratio": 0.50469375,
+  "neutral_ratio": NaN,
+  "positive_ratio": 0.49530625,
+  "mean_proba_pos": 0.49706437484623167,
+  "hi_label_raw": -0.0093875,
+  "hi_label_100": 49.530625,
+  "hi_prob_raw": -0.005871250307536684,
+  "hi_prob_100": 49.706437484623166,
+  "neg_th": NaN,
+  "pos_th": NaN,
+  "base_model": "bert-base-uncased",
+  "max_len": 128,
+  "batch_size": 16,
+  "epochs": 2
+}

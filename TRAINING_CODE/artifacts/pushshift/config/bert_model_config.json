@@ -1,0 +1,23 @@
+{
+  "model_name": "bert-base-uncased",
+  "model_alias": "bert_base_uncased",
+  "dataset": "pushshift",
+  "task": "three_class_sentiment",
+  "random_state": 42,
+  "max_length": 128,
+  "num_labels": 3,
+  "train_batch_size": 8,
+  "eval_batch_size": 16,
+  "epochs": 3,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "early_stopping_patience": 2,
+  "best_checkpoint_metric": "f1_macro",
+  "sample_train_size": null,
+  "sample_eval_size": null,
+  "run_train_size": 16931,
+  "run_val_size": 2822,
+  "run_test_size": 8466,
+  "test_accuracy": 0.8815261044176707,
+  "test_macro_f1": 0.8771468165632493
+}

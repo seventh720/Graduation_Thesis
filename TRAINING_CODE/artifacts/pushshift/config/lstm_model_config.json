@@ -1,0 +1,22 @@
+{
+  "model_name": "glove_bilstm_3class",
+  "dataset": "pushshift",
+  "random_state": 42,
+  "max_vocab": 50000,
+  "max_len": 80,
+  "embed_dim": 300,
+  "hidden_dim": 128,
+  "batch_size": 64,
+  "epochs": 6,
+  "learning_rate": 0.001,
+  "dropout": 0.5,
+  "embed_dropout": 0.2,
+  "best_checkpoint_metric": "val_macro_f1",
+  "best_val_macro_f1": 0.8307785144339751,
+  "best_recorded_val_loss": 0.455280312233501,
+  "class_weights": [
+    1.2583426237106323,
+    1.3414943218231201,
+    0.6849941611289978
+  ]
+}

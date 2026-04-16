@@ -1,0 +1,13 @@
+{
+  "dataset": "sentiment140",
+  "model": "tfidf_lr",
+  "index_variant": "binary",
+  "sample_size": 480000,
+  "negative_ratio": 0.49358958333333336,
+  "positive_ratio": 0.5064104166666666,
+  "mean_proba_pos": 0.4977641013181708,
+  "hi_label_raw": 0.012820833333333333,
+  "hi_label_100": 50.641041666666666,
+  "hi_prob_raw": -0.0044717973636585005,
+  "hi_prob_100": 49.77641013181707
+}
